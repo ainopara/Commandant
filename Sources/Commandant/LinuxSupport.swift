@@ -10,5 +10,8 @@ import Foundation
 
 // swift-corelibs-foundation is still written in Swift 2 API.
 #if os(Linux)
+#if swift(>=3.1)
+#else
 	typealias Process = Task
+#endif
 #endif
