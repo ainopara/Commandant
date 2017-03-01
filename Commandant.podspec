@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
                     DESC
 
   s.license       = "MIT"
+  s.homepage      = 'https://github.com/ainopara/Commandant'
   s.author        = { "ainopara" => "ainopara@gmail.com" }
   s.platform      = :osx, "10.10"
   s.source        = { :git => "http://github.com/ainopara/Commandant.git", :tag => "#{s.version}" }
